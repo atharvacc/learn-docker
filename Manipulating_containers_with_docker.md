@@ -5,4 +5,15 @@
 - ex: docker run hello_world
 - downloads image if doesn't exist on docker.
 - makes container with relevant resources 
-- runs that process 
+- runs the default command
+
+### docker run <image_name> <default_command_override>
+
+- ex : docker run busybox echo hi there
+- Overrides defualt command with "echo hi there"
+
+### docker run <image_name> ls
+
+- list out stuff inside the image that the hardware segments
+
+
