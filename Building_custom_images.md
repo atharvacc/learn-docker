@@ -2,4 +2,6 @@
 ## Basic idea
 ## Docker File (Plain text file for configuration; define how our container behaves) -> Docker Client (Docker CLI) -> Docker Server( Build a usable image) ->	Image file
  
-###	
+### Example
+
+Check out the redis-image folder and the docker file inside of it 	
