@@ -1,7 +1,6 @@
 # Some basic commands
 
 ### docker run <image_name>
-
 - ex: docker run hello_world
 - downloads image if doesn't exist on docker.
 - makes container with relevant resources 
@@ -41,4 +40,15 @@
 - Delete Build Cache
 - Remove images
 	
+### docker logs <container_id>
 
+- Get output if you forgot to add "-a" to start to get output printed out
+
+### docker stop <container_id>
+
+- Send hardware signal to stop 
+- Little time to do cleanup 
+
+### docker kill <container_id>
+
+- Send SigKill to stop the container
