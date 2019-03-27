@@ -1,0 +1,5 @@
+# How to build your own customer Docker image using docker Server
+## Basic idea
+## Docker File (Plain text file for configuration; define how our container behaves) -> Docker Client (Docker CLI) -> Docker Server( Build a usable image) ->	Image file
+ 
+###	
