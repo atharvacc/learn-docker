@@ -6,6 +6,7 @@
 - downloads image if doesn't exist on docker.
 - makes container with relevant resources 
 - runs the default command
+- run = create (create container) + start ( start an image)
 
 ### docker run <image_name> <default_command_override>
 
@@ -16,4 +17,11 @@
 
 - list out stuff inside the image that the hardware segments
 
+### docker ps 
+
+- List running containers on machine
+
+### docker ps --all
+
+- List of all containers we have ever created
 
