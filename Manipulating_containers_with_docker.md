@@ -25,3 +25,20 @@
 
 - List of all containers we have ever created
 
+###  docker create <image name>
+
+- Create a container from an image
+
+### docker start <container_id> 
+
+- Start container
+- No output shown unless parameter explicitly added  
+- "-a" - watch for output and print it out
+
+### docker system prune
+
+- Delete stopped containers
+- Delete Build Cache
+- Remove images
+	
+
