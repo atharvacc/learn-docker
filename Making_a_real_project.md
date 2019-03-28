@@ -16,6 +16,10 @@
 ## 4. Run Image as container
 ### Port forwarding and running (forward 
 - "docker run -p <your_port>:<port_in_container> <image_name>"
+###	Specify Workdir
+- "WORKDIR <PATH_TO_WORKDIR>"
+
+
 
 ## 5. Connect to webapp from Browser
 ### Go to web browser
