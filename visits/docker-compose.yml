@@ -1,0 +1,11 @@
+#Specify version of docker-compose
+version:  '3'
+
+#Service == A Type of Container(almost)
+services: 
+  redis-server:
+    image:  'redis'
+  node-app:
+    build:  .
+    ports:
+      - "4001:8081"

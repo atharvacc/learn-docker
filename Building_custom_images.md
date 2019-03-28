@@ -6,4 +6,10 @@
 
 Check out the redis-image folder and the docker file inside of it.
 
-Go to the folder and run "docker build ." 	
+Go to the folder and run "docker build ." 
+
+
+## Build image out of running container
+-	 Run image , and do whatever,
+-	 go to different, terminal, and get the id of the running process
+-	"docker commit -c 'CMD['<default_command>']'	<id_of_running>	"
