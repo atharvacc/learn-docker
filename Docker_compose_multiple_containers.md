@@ -10,3 +10,15 @@
 
 -   docker-compose up (equivalent of docker run)
 -   docker-compose build  . (equivalent of 'docker build .' + 'docker run myImage')
+-   docker-compose down (shut all containers)
+
+### Restart policies
+
+- "NO"  (needs quotes, Never restart)
+- always (always restart)
+- on-failure  (restart on failure)
+- unless-stopped    (always restart unless we forcibly stop)
+
+### docker-compose ps
+-   print status of containers inside compose file
+-   needs directory where docker-compose.yml file 
