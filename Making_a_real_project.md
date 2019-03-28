@@ -6,7 +6,7 @@
 
 ## 2. Create a DockerFile
 ### Copy Files from my local folder to inside container
-- COPY <path to folder on local file system>  <path  to inside container>
+- COPY <path_to_folder_on_local_file_system>  <path_to_inside_container>
 
 
 ## 3. Build Image from DockerFile
