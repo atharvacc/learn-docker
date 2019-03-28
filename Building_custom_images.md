@@ -4,4 +4,6 @@
  
 ### Example
 
-Check out the redis-image folder and the docker file inside of it 	
+Check out the redis-image folder and the docker file inside of it.
+
+Go to the folder and run "docker build ." 	
