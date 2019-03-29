@@ -1,0 +1,10 @@
+sudo: required
+
+services:
+  - docker
+
+before_install:
+  - docker build  -t  anchalke/frontend:1.0  -f  Dockerfile.dev .
+  
+script:
+  - docker run  anchalke/frontend:1.0 npm run test  --  --coverage
