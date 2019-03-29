@@ -8,3 +8,14 @@ before_install:
   
 script:
   - docker run  anchalke/frontend:1.0 npm run test  --  --coverage
+
+deploy:
+  provider: elasticbeanstalk
+  region: "us-east-2"
+  app:  "frontend"
+  env:  "Frontend-env"
+  bucket_name:  "elasticbeanstalk-us-east-2-056054572741"
+  bucket_path:  "frontend"
+  on:
+    branch: master
+    
