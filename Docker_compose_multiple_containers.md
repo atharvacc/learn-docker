@@ -22,3 +22,4 @@
 ### docker-compose ps
 -   print status of containers inside compose file
 -   needs directory where docker-compose.yml file 
+

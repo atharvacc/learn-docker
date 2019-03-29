@@ -56,5 +56,8 @@
 - get shell access while using the run command
 
 
-### 
+### docker build -f <file_name> .
+-   build with different file name 
+
+
 
